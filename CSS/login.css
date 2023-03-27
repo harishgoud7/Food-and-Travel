@@ -1,0 +1,94 @@
+*{margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(70deg,white,white);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 80%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.275),rgba(128, 128, 128, 0.27)),url(../Assets/Images/background\ image.jpg);
+    background-position: 100%;
+    background-size: cover;
+    backdrop-filter: blur;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+#box{
+     width: 500px;
+     height: 400px;
+     background-color: rgba(0, 0, 0, 0.69);
+     border-radius: 20px;
+     box-shadow: 2px 2px 5px black;
+    position: absolute;
+    bottom: 130px;
+    right: 200px;
+}
+#hed{
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 50px;
+}
+#Email{
+    border-radius: 50px;
+    border: 3px solid rgb(106, 106, 130);
+    color: white;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#pass{
+    border-radius: 50px;
+    border: 3px solid rgb(106, 106, 130);
+    color: white;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+#but{
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(0, 200, 255);
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+    margin-left: 215px;
+    transform: all 0.5s;
+}
+#but:hover{
+    background-color: rgb(0, 200, 255);
+    border: 2px solid rgba(0, 255, 166, 0.951);
+    color: black;
+    transition: steps(1.2);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    color: red;
+    font-size: 2vh;
+    position: absolute;
+    left: 210px;
+}

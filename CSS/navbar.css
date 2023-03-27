@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#Tophead{
+    position: fixed;
+    display: flex;
+    z-index: 5;
+    top: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.289);
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    list-style: none;
+    color: black;
+    padding-left: 20px;
+    background-position: center;
+}
+#logout{
+    position: absolute;
+    right: 20px;
+}
+.sublist{
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    transition: transform 0.2s;
+}
+.sublist:hover{
+    transform: scale(1.2);
+}
+.sublist:active{
+    color: red;
+}
+#headder{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.46),rgba(128, 128, 128, 0.462)), url(../Assets/Images/background\ image.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 10px black;
+}
+#containerplace{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 49vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.places{
+    width: 20vw;
+    height: 25vh;
+    background-color: aliceblue;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+.places:hover{
+    background-size: 110% 32vh;
+    transform: scale(1.2);
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+}
+#place1{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.275),rgba(128, 128, 128, 0.27)),url(../Assets/Images/India.jpg);
+    background-size: 100% 25vh;
+}
+#place2{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.275),rgba(128, 128, 128, 0.27)),url(../Assets/Images/Swiz.jpg);
+}
+#place3{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.275),rgba(128, 128, 128, 0.27)),url(../Assets/Images/Japan.jpg);
+    background-size: 100% 25vh;
+}
+#place4{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.275),rgba(128, 128, 128, 0.27)),url(../Assets/Images/Dubai.jpg);
+}
+#heading{
+    width: 45vw;
+    height: 80vh;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+#textheading{
+    font-size: 11vw;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 10px;
+}
+#topbutton{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(169, 165, 165, 0.345);
+    border-radius: 100%;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    border: none;
+    background-image: url(../Assets/Logo/up-arrow-png-27176.png);
+    background-position: center;
+    background-size: 100%;
+    filter: invert(1);
+    cursor: pointer;
+}
+i{
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 20px;
+}
+#social{
+    float: right;
+}
+#cpr{
+    padding-left: 20px;
+}
+#cprtext{
+    padding-left: 0px;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+#snap,#insta,#fb,#twitt{
+    color: rgb(20, 19, 19);
+    text-shadow: 2px 2px 5px black;
+}
+#snap:hover{
+    color: #FFFC00;
+}
+#insta:hover{
+    /* color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+    color: rgb(189, 35, 71);
+}
+#fb:hover{
+    color: #3b5998;
+}
+#twitt:hover{
+    color: #00acee;
+}
+
