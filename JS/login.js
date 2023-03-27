@@ -6,7 +6,7 @@ function autho()
     var usergivenPass=document.getElementById("pass").value
     if(email==usergivenUSID && pass==usergivenPass)
     {
-        document.getElementById("fom").setAttribute("action","./home.html")
+        document.getElementById("fom").setAttribute("action","../HTML/home.html")
         document.getElementById("but").setAttribute("type","submit")
     }
     else if(email!=usergivenUSID && pass==usergivenPass)
